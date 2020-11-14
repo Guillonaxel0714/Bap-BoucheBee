@@ -1,0 +1,36 @@
+body{
+    /* background-color: antiquewhite; */
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
+
+.container.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.element{
+    padding: 1%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 120%;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-img{
+    width: 150px;
+}

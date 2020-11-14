@@ -1,0 +1,62 @@
+<mjml>
+
+    <mj-head>
+
+        <mj-attributes>
+        <mj-text align="center" color="#555" />
+        <mj-section background-color="#fff" />
+        </mj-attributes>
+
+    </mj-head>
+
+    <mj-body background-color="#eee">
+    
+    	<mj-section background-color="#1976D2" padding="20px 0">
+    
+            <mj-column>
+                <mj-text  font-family="Ubuntu"
+                    font-size="28px"
+                    color="#fff"
+                    align="center">
+                    Le cheval, MIAM
+                </mj-text>
+            </mj-column>
+        </mj-section>
+  
+  
+    <mj-section>
+    
+        <mj-column width="200px">
+            <mj-image width="200px" src="cheval.jpg" />
+        </mj-column>
+    
+    <mj-column width="400px">
+    
+      <mj-text align="center"
+               font-family="Ubuntu"
+               font-size="35px"
+               >
+      Le cheval
+    </mj-text>
+      
+      <mj-text align="center"
+               font-family="Ubuntu"
+               font-size="18px"
+               >
+      Le cheval c'est trop géniale
+    </mj-text>
+     <mj-button font-family="Ubuntu" background-color="#f45e43" color="white">
+          Click me!
+         </mj-button>
+    </mj-column>
+  </mj-section>
+    
+    <mj-section>
+     <mj-column><mj-image width="200px" src="cheval.jpg" /></mj-column>
+    <mj-column><mj-image width="200px" src="cheval.jpg" /></mj-column>
+    
+    </mj-section>
+    
+  
+  </mj-body>
+</mjml>

@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/BB/DSCF7280.jpg");
+    background-size: cover;
+    
+}
+
+/*FORMULAIRE*/
+.formulaire{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+
+    width: 80%;
+    height: 100vh; 
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.877);
+
+}
+
+/*LABEL TOP FORMULAIRE*/
+.coord{
+    padding-bottom: 15%;
+}
+
+.civilite{
+    padding-bottom: 15%;
+}
+
+/*COTE GAUCHE FORMULAIRE*/
+.sideL{
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 2%;
+}
+
+#city{
+
+    background-color: white;
+    border: 1px solid #262626;
+    border-radius: 30px;
+    height: 22px;
+
+    outline: none;
+    transition: 0.25s;
+
+}
+
+#city:focus{
+    border-radius: 0px;
+    transition: 0.25s;
+}
+
+
+.container-label{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+}
+.entry{
+    border: 0;
+    border-bottom: 1px solid #707070;
+    height: 30px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+
+.entry::placeholder{
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+.entry:focus{
+    outline: none;
+    border-bottom: 1px solid #D3A02A;
+    background-color: rgba(211, 160, 42, 0.137);
+    transition: 0.5s;
+}
+
+
+/*COTE DROIT FORMULAIRE*/
+.sideR{
+    padding-left: 2%;
+}
+
+.sideR textarea{
+
+    resize: none;
+    background-color: #B8B8B8;
+    border: 0.5px solid #707070;
+    border-radius: 10px;
+
+    width: 50vw;
+    height: 60vh;
+
+}
+
+.sideR textarea::placeholder{
+    font-size: 17px;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+}
